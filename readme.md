@@ -1,8 +1,8 @@
-# micromark-extension-lemmy-spoiler
+# micromark-extension-lemmy-supersub
 
 ## What is this?
 
-This package contains an extension that add support for lemmy spoiler syntax in
+This package contains an extension that add support for lemmy super/sub syntax in
 markdown to micromark.
 
 ## Install
@@ -13,13 +13,13 @@ In Node.js (version 16+), install with \[npm]\[]:
 \[npm]\[]:
 
 ```sh
-npm install micromark-extension-lemmy-spoiler
+npm install micromark-extension-lemmy-supersub
 ```
 
 In Deno with \[`esm.sh`]\[esmsh]:
 
 ```js
-import {spoiler, spoilerHtml} from 'https://esm.sh/micromark-extension-lemmy-spoiler@1'
+import {supersub, supersubHtml} from 'https://esm.sh/micromark-extension-lemmy-supersub@1'
 ```
 
 In browsers with \[`esm.sh`]\[esmsh]:
